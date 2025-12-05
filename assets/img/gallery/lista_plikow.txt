@@ -1,0 +1,110 @@
+ Volume in drive C has no label.
+ Volume Serial Number is DC50-9975
+
+ Directory of C:\Users\jakub.toronczak\Downloads\fabryka_blysku_final_web-main (1)\fabryka_blysku_final_web-main\fabryka_blysku\assets\img\gallery
+
+05.12.2025  17:26    <DIR>          .
+04.12.2025  08:49    <DIR>          ..
+05.12.2025  17:26    <DIR>          backup_originals
+04.12.2025  08:49              1417 drzewko.txt
+05.12.2025  17:26    <DIR>          IMportable
+05.12.2025  18:05                 0 lista_plikow.txt
+04.12.2025  08:49           2396299 P1014942.jpg
+04.12.2025  08:49           2502641 P1014943.jpg
+04.12.2025  08:49           2596718 slide10.jpg
+04.12.2025  08:49           2161010 slide11.jpg
+04.12.2025  08:49           2639762 slide12.jpg
+04.12.2025  08:49           3045258 slide13.jpg
+04.12.2025  08:49           2960094 slide14.jpg
+04.12.2025  08:49           2646111 slide15.jpg
+04.12.2025  08:49           2133305 slide16.jpg
+04.12.2025  08:49           3030184 slide17.jpg
+04.12.2025  08:49           1874908 slide18.jpg
+04.12.2025  08:49           1652175 slide19.jpg
+04.12.2025  08:49           2493279 slide20.jpg
+04.12.2025  08:49           2224071 slide21.jpg
+04.12.2025  08:49           3137280 slide22.jpg
+04.12.2025  08:49           2543980 slide23.jpg
+04.12.2025  08:49           2431743 slide24.jpg
+04.12.2025  08:49           2105548 slide25.jpg
+04.12.2025  08:49           2614860 slide26.jpg
+04.12.2025  08:49           2489943 slide27.jpg
+04.12.2025  08:49           1983381 slide28.jpg
+04.12.2025  08:49           1583802 slide29.jpg
+04.12.2025  08:49           2657235 slide3.jpg
+04.12.2025  08:49           2915577 slide30.jpg
+04.12.2025  08:49           2767115 slide31.jpg
+04.12.2025  08:49           2784915 slide32.jpg
+04.12.2025  08:49           3489615 slide33.jpg
+04.12.2025  08:49           3592262 slide34.jpg
+04.12.2025  08:49           2914127 slide35.jpg
+04.12.2025  08:49           3223603 slide36.jpg
+04.12.2025  08:49           2701147 slide37.jpg
+04.12.2025  08:49           3144299 slide38.jpg
+04.12.2025  08:49           3565134 slide39.jpg
+04.12.2025  08:49           2762465 slide4.jpg
+04.12.2025  08:49           3256293 slide40.jpg
+04.12.2025  08:49           2658858 slide41.jpg
+04.12.2025  08:49           3089381 slide42.jpg
+04.12.2025  08:49           3130059 slide43.jpg
+04.12.2025  08:49           3869831 slide44.jpg
+04.12.2025  08:49           1817038 slide45.jpg
+04.12.2025  08:49           2170520 slide46.jpg
+04.12.2025  08:49           2477022 slide47.jpg
+04.12.2025  08:49           1730642 slide48.jpg
+04.12.2025  08:49           1633746 slide49.jpg
+04.12.2025  08:49           3642050 slide5.jpg
+04.12.2025  08:49           1016514 slide50.jpg
+04.12.2025  08:49           1907787 slide51.jpg
+04.12.2025  08:49           2920760 slide52.jpg
+04.12.2025  08:49           2746116 slide53.jpg
+04.12.2025  08:49           4361847 slide54.jpg
+04.12.2025  08:49           2300390 slide55.jpg
+04.12.2025  08:49           2554839 slide56.jpg
+04.12.2025  08:49           2917495 slide57.jpg
+04.12.2025  08:49           2033542 slide58.jpg
+04.12.2025  08:49           2914797 slide59.jpg
+04.12.2025  08:49           2441752 slide6.jpg
+04.12.2025  08:49           2037511 slide60.jpg
+04.12.2025  08:49           3433842 slide61.jpg
+04.12.2025  08:49           3284402 slide62.jpg
+04.12.2025  08:49           2707128 slide63.jpg
+04.12.2025  08:49           1900895 slide64.jpg
+04.12.2025  08:49           3412274 slide65.jpg
+04.12.2025  08:49           2415965 slide66.jpg
+04.12.2025  08:49           2396741 slide67.jpg
+04.12.2025  08:49           2342179 slide68.jpg
+04.12.2025  08:49           3411060 slide69.jpg
+04.12.2025  08:49           2574181 slide7.jpg
+04.12.2025  08:49           2615079 slide70.jpg
+04.12.2025  08:49           2433095 slide71.jpg
+04.12.2025  08:49           2330939 slide72.jpg
+04.12.2025  08:49            473861 slide73.jpeg
+04.12.2025  08:49           2400230 slide73.jpg
+04.12.2025  08:49            636813 slide74.jpeg
+04.12.2025  08:49            590735 slide75.jpeg
+04.12.2025  08:49            758366 slide76.jpeg
+04.12.2025  08:49            778786 slide77.jpeg
+04.12.2025  08:49           5009991 slide78.jpeg
+04.12.2025  08:49           4846193 slide79.jpeg
+04.12.2025  08:49           2694577 slide8.jpg
+04.12.2025  08:49           5149447 slide80.jpeg
+04.12.2025  08:49           5035544 slide81.jpeg
+04.12.2025  08:49           2661049 slide9.jpg
+              84 File(s)      215687425 bytes
+
+ Directory of C:\Users\jakub.toronczak\Downloads\fabryka_blysku_final_web-main (1)\fabryka_blysku_final_web-main\fabryka_blysku\assets\img\gallery\backup_originals
+
+05.12.2025  17:26    <DIR>          .
+05.12.2025  17:26    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\jakub.toronczak\Downloads\fabryka_blysku_final_web-main (1)\fabryka_blysku_final_web-main\fabryka_blysku\assets\img\gallery\IMportable
+
+05.12.2025  17:26    <DIR>          .
+05.12.2025  17:26    <DIR>          ..
+               0 File(s)              0 bytes
+
+     Total Files Listed:
+              84 File(s)      215687425 bytes
+               8 Dir(s)    355082969088 bytes free
