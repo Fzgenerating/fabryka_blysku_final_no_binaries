@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Galeria - Fabryka Błysku</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="preload" href="style.css" as="style">
     <link rel="stylesheet" href="style.css">
     <style>
         .gallery-page {
@@ -133,6 +133,54 @@
             max-height: min(88vh, 820px);
             min-height: 360px;
             transition: height 0.35s ease;
+        }
+
+        .gallery-loading {
+            position: absolute;
+            inset: 0;
+            display: grid;
+            place-items: center;
+            background: linear-gradient(145deg, rgba(5, 8, 14, 0.92), rgba(10, 15, 26, 0.88));
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+            z-index: 3;
+        }
+
+        .gallery-loading.is-active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .gallery-loading__inner {
+            display: grid;
+            gap: 12px;
+            justify-items: center;
+            text-align: center;
+            color: var(--color-primary-strong, #e5e7eb);
+        }
+
+        .gallery-loading__bubbles {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .gallery-loading__bubble {
+            width: 16px;
+            height: 16px;
+            border-radius: 999px;
+            background: linear-gradient(135deg, rgba(148, 163, 255, 0.6), rgba(224, 231, 255, 0.9));
+            box-shadow: 0 0 0 6px rgba(148, 163, 255, 0.16);
+            animation: gallery-bubble 1.4s ease-in-out infinite;
+        }
+
+        .gallery-loading__bubble:nth-child(2) { animation-delay: 0.15s; }
+        .gallery-loading__bubble:nth-child(3) { animation-delay: 0.3s; }
+
+        @keyframes gallery-bubble {
+            0%, 100% { transform: translateY(0); opacity: 0.8; }
+            50% { transform: translateY(-10px); opacity: 1; }
         }
 
         .gallery-visual {
@@ -355,23 +403,33 @@
             <section aria-label="Pokaz slajdów z realizacjami" class="gallery-shell">
                 <div class="gallery-toolbar">
                     <div class="gallery-view-switch" role="group" aria-label="Przełącz widok galerii">
-                        <button class="gallery-chip is-active" type="button" data-view="slider">Widok pokazu</button>
-                        <button class="gallery-chip" type="button" data-view="grid">Miniatury</button>
+                        <button class="gallery-chip" type="button" data-view="slider">Widok pokazu</button>
+                        <button class="gallery-chip is-active" type="button" data-view="grid">Miniatury</button>
                     </div>
-                    <button class="gallery-autoplay-toggle" type="button" aria-pressed="true" aria-label="Przełącz automatyczne przewijanie">
+                    <button class="gallery-autoplay-toggle" type="button" aria-pressed="false" aria-label="Przełącz automatyczne przewijanie">
                         <span class="toggle-dot" aria-hidden="true"></span>
-                        Automatyczne przewijanie: włączone
+                        Automatyczne przewijanie: wyłączone
                     </button>
                 </div>
 
                 <div class="gallery-slider" id="gallery-slider" aria-live="polite">
-                    <div class="gallery-visual">
-                        <img id="gallery-active-image" src="" alt="" loading="lazy">
-                        <div class="gallery-caption">
-                            <span class="gallery-counter" id="gallery-counter">0/0</span>
-                            <span class="gallery-name" id="gallery-name">Ładuję zdjęcia...</span>
+                <div class="gallery-visual">
+                    <img id="gallery-active-image" src="" alt="" loading="lazy">
+                    <div class="gallery-loading" id="gallery-loading" role="status" aria-live="polite">
+                        <div class="gallery-loading__inner">
+                            <div class="gallery-loading__bubbles" aria-hidden="true">
+                                <span class="gallery-loading__bubble"></span>
+                                <span class="gallery-loading__bubble"></span>
+                                <span class="gallery-loading__bubble"></span>
+                            </div>
+                            <p>Trwa wczytywanie zdjęć...</p>
                         </div>
                     </div>
+                    <div class="gallery-caption">
+                        <span class="gallery-counter" id="gallery-counter">0/0</span>
+                        <span class="gallery-name" id="gallery-name">Ładuję zdjęcia...</span>
+                    </div>
+                </div>
 
                     <div class="gallery-slider-nav">
                         <button class="gallery-arrow" type="button" data-direction="prev" aria-label="Poprzednie zdjęcie">‹</button>

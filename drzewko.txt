@@ -15,14 +15,12 @@ C:.
 -   script.js
 -   style.css
 -   
-+¦¦¦assets
--   -   favicon-512.png
 -   -   favicon.svg
 -   -   
--   L¦¦¦img
+-   LÂ¦Â¦Â¦img
 -       -   logo-fabryka-blysku.png
 -       -   
--       L¦¦¦gallery
+-       LÂ¦Â¦Â¦gallery
 -               drzewko.txt
 -               P1014942.jpg
 -               P1014943.jpg
@@ -107,7 +105,7 @@ C:.
 -               slide81.jpeg
 -               slide9.jpg
 -               
-L¦¦¦data
+LÂ¦Â¦Â¦data
         gallery.json
         pricing.json
         reviews.json
