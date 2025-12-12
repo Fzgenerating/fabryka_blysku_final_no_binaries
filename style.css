@@ -165,6 +165,10 @@ body {
     width: 100%;
 }
 
+.nav-links .nav-item-opinie {
+    display: none !important;
+}
+
 /* Hamburger */
 
 .nav-toggle {
@@ -805,6 +809,10 @@ body.nav-open .nav-toggle-bar:nth-child(3) {
 }
 
 /* OPINIE */
+
+#opinie.section-reviews {
+    display: none !important;
+}
 
 .section-reviews .reviews-grid {
     display: grid;

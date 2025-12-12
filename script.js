@@ -157,9 +157,7 @@ function setupIntersectionObserver() {
 }
 
 /**
- * Obsługa formularza: walidacja + wysyłka
- * - lokalnie (file://) otwiera mailto z gotową treścią
- * - na serwerze wysyła do contact.php i zwraca JSON
+ * Obsługa formularza: walidacja + wysyłka do contact.php (JSON)
  */
 function setupContactFormHandling() {
     const form = document.getElementById("contact-form");
@@ -193,29 +191,6 @@ function setupContactFormHandling() {
         if (errors.length > 0) {
             messageEl.textContent = errors.join(" ");
             messageEl.classList.add("error");
-            return;
-        }
-
-        // Tryb lokalny - otwieramy klienta poczty z gotowym mailem
-        if (window.location.protocol === "file:") {
-            const mailTo = "kontakt.fabrykablysku@gmail.com";
-            const mailSubject = "Zapytanie z formularza Fabryka Błysku";
-            const mailBody =
-                "Imię i nazwisko: " + name + "\n" +
-                "E-mail: " + email + "\n" +
-                (phone ? "Telefon: " + phone + "\n" : "") +
-                "Temat: " + subject + "\n\n" +
-                "Wiadomość:\n" + message;
-
-            const mailtoUrl =
-                "mailto:" + encodeURIComponent(mailTo) +
-                "?subject=" + encodeURIComponent(mailSubject) +
-                "&body=" + encodeURIComponent(mailBody);
-
-            window.location.href = mailtoUrl;
-
-            messageEl.textContent = "Otworzyliśmy domyślny program pocztowy z gotowym mailem. Sprawdź i kliknij Wyślij.";
-            messageEl.classList.add("success");
             return;
         }
 
