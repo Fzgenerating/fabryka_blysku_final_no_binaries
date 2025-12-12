@@ -157,9 +157,7 @@ function setupIntersectionObserver() {
 }
 
 /**
- * Obsługa formularza: walidacja + wysyłka
- * - lokalnie (file://) otwiera mailto z gotową treścią
- * - na serwerze wysyła do contact.php i zwraca JSON
+ * Obsługa formularza: walidacja + wysyłka do contact.php (JSON)
  */
 function setupContactFormHandling() {
     const form = document.getElementById("contact-form");
